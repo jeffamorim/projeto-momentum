@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
+
+
+aside{ 
+    height: 100vh;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside > div{
+    height: 50vh;
+    width: 40vw;
+    
+    
+}
+
+aside > div > img{
+    width: 70%;
+    -webkit-box-shadow: 7px 6px 22px 2px rgba(0,0,0,0.34); 
+    box-shadow: 7px 6px 22px 2px rgba(0,0,0,0.34);
+}
+
+aside > div > P{
+    width: 60%;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    font-size: 13pt;
+
+    
+}
+
+#teste{
+    width: 30%;
+    height: 30%;
+}
+
+nav > ul { 
+    width: 100%;
+}
+
