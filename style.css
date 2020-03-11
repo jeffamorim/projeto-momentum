@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
 
+* {
+    scroll-behavior: smooth;
+}
 
 aside{ 
-    height: 100vh;
-    
+    height: 90vh;
     justify-content: space-around;
     align-items: center;
 }
 
 aside > div{
     height: 50vh;
-    width: 40vw;
-    
-    
+    width: 40vw;  
 }
 
 aside > div > img{
@@ -24,17 +24,14 @@ aside > div > img{
 aside > div > P{
     width: 60%;
     font-family:'Fira Sans Extra Condensed', sans-serif;
-    font-size: 13pt;
-
-    
+    font-size: 13pt;   
 }
 
-#teste{
-    width: 30%;
-    height: 30%;
+#navcolor{
+    background-color: #ffffff;
 }
 
-nav > ul { 
-    width: 100%;
+ul > li > a{
+    font-size: 20pt;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
 }
-
