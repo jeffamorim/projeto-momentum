@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Botão Doar</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center">Teste do Botão para Doação dentro do site!</h1>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoll-1">Doar</button>
+
+    <!-- Modal: modalPoll -->
+    <div class="modal fade right" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <p class="heading lead">Escolha uma instituição para a doação dos valores</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">X</span>
+                    </button>
+                </div>
+
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="far fa-file-alt fa-4x mb-3 animated rotateIn"></i>
+                        <p>
+                            <strong>Sua escolha nos ajuda a decidir para qual instituição iremos doar o valor arrecadado
+                                no mês.</strong>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <!-- Radio -->
+                    <p class="text-center">
+                        <strong>Selecione a instituição</strong>
+                    </p>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" name="group1" type="radio" id="radio-179" value="option1"
+                            checked>
+                        <label class="form-check-label" for="radio-179" id="teste">Instituição A</label>
+                    </div>
+
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" name="group1" type="radio" id="radio-279" value="option2">
+                        <label class="form-check-label" for="radio-279">Instituição B</label>
+                    </div>
+
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" name="group1" type="radio" id="radio-379" value="option3">
+                        <label class="form-check-label" for="radio-379">Instituição C</label>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" name="group1" type="radio" id="radio-479" value="option4">
+                        <label class="form-check-label" for="radio-479">Instituição D</label>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" name="group1" type="radio" id="radio-579" value="option5">
+                        <label class="form-check-label" for="radio-579">Instituição E</label>
+                    </div>
+                    <!-- Radio -->
+
+                    <p class="text-center">
+                        <strong>Tem algo a nos dizer?</strong>
+                    </p>
+                    <!--Basic textarea-->
+                    <div class="md-form">
+                        <textarea type="text" id="form79textarea" class="md-textarea form-control" rows="3"></textarea>
+                        <label for="form79textarea">Deixe sua mensagem!</label>
+                    </div>
+
+                </div>
+
+                <!--Footer-->
+                <div class="modal-footer justify-content-center" id="btnEnviar">
+                    <a type="button" class="btn btn-primary waves-effect waves-light">Enviar
+                        <i class="fa fa-paper-plane ml-1"></i>
+                    </a>
+                    <a type="button" class="btn btn-outline-danger waves-effect" data-dismiss="modal">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal: modalPoll -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
