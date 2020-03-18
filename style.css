@@ -3,55 +3,61 @@
 * {
     font-family:'Fira Sans Extra Condensed', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-header{
-    
+#texto {
+    height: 300px;
+    width: 300px; 
+    background-color: black;
+}
+
+#imagem1{
+    width: 600px;
+}
+#texto1 {
+    width: 600px;
     background-color: #d3fbf0;
 }
 
-article{
+#imagem {
+    height: 300px;
+    width: 300px; 
+    background-color: blue;
+}
+
+#inicio{
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+}
+
+#principal{
     height: 100vh;
-    /* d */
 }
 
-aside{ 
+#qsomos{
     height: 100vh;
-    /* background-color: chocolate; */
 }
 
-aside > div{
-    height: 50vh;
-    width: 40vw;  
+#nossotime{
+    height: 100vh;
 }
 
-aside > div > img{
-    width: 70%;
-    -webkit-box-shadow: 7px 6px 22px 2px rgba(0,0,0,0.34); 
-    box-shadow: 7px 6px 22px 2px rgba(0,0,0,0.34);
+#acolhimento{
+    height: 130vh;
 }
 
-aside > div > P{
-    width: 60%;
-    font-family:'Fira Sans Extra Condensed', sans-serif;
-    font-size: 13pt;   
+#footer{
+    height: 30vh;
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+}   
+
+#faq{
+    height: 20vw;
+}
+#politica{
+    height: 70vw;
 }
 
-#navcolor{
-    background-color: #ffffff;
-}
-#teste{
-    height: 80vh;
-    width: 50vw;
-    
-}
-
-#teste1{
-    height: 50vh;
+#textoPolitica{
     width: 45vw;
-}
-
-#texto{
-    width: 200px;
-    height: 200px;
 }
