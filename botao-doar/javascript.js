@@ -1,33 +1,38 @@
 
-let escolha1 = document.getElementById('radio-179');
-let escolha2 = document.getElementById('radio-279').value;
-let escolha3 = document.getElementById('radio-379').value;
-let escolha4 = document.getElementById('radio-479').value;
-let escolha5 = document.getElementById('radio-579').value;
+let escolha = document.getElementsByName('group1');
+let resul = '';
+let mensagem = document.querySelector('textarea');
 
 
 document.getElementById("btnEnviar").addEventListener('click', () => {
-    let resultado = "";
-    if (resultado === escolha1.value) {
-        return resultado;
+    if (escolha[0].checked) {
+        let resul0 = escolha[0];
+        resul = resul0.value;
     };
 
-    // if (resultado = escolha2) {
-    //     return resultado;
-    // };
+    if (escolha[1].checked) {
+        let resul1 = escolha[1];
+        resul = resul1.value;
+    };
 
-    // if (resultado = escolha3) {
-    //     return resultado;
-    // };
+    if (escolha[2].checked) {
+        let resul2 = escolha[2];
+        resul = resul2.value;
+    };
 
-    // if (resultado = escolha4) {
-    //     return resultado;
-    // };
+    if (escolha[3].checked) {
+        let resul3 = escolha[3];
+        resul = resul3.value;
+    };
 
-    // if (resultado = escolha4) {
-    //     return resultado;
-    // };
+    if (escolha[4].checked) {
+        let resul4 = escolha[4];
+        resul = resul4.value;
+    };
 
-    console.log(resultado);
+    if (mensagem.length <= 0) {
+        mensagem = '*campo vazio!*';
+    }
+
+    console.log(`A escolha foi: ${resul} e a mensagem deixada foi: ${mensagem.value}`);
 });
-
